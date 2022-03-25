@@ -1,0 +1,79 @@
+.external-container {
+  margin: auto;
+  width: 70%;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: black;
+
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  padding: 1rem;
+}
+
+.error-container {
+  background: linen;
+  color: red;
+  padding: 1rem;
+  width: 60%;
+  margin: 1rem auto auto;
+}
+
+.error-container>p {
+  margin: auto;
+}
+
+.btn {
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 900;
+  color: black;
+  background-color: white;
+  border: 2px solid #4c5e79;
+  cursor: pointer;
+  width: max-content;
+  transition: 0.25s ease;
+}
+
+.btn:hover {
+  color: #4c5e79;
+  background-color: transparent;
+}
+
+.btn:disabled {
+  background-color: #C1C1C1;
+  border: 2px solid #C1C1C1;
+}
+
+@media (min-width: 30rem) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media (min-width: 60rem) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 100rem) {
+  .grid-container {
+    grid-template-columns: 33% 33% 33%;
+  }
+}

@@ -1,0 +1,27 @@
+.card-container {
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,0.2);
+  transition: 0.25s;
+  width: 90%;
+  margin: auto;
+  height: 90%;
+}
+
+.card-text-container {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+.half-container{
+  height: 50%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.card-container:hover {
+  box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.3);
+}
